@@ -349,4 +349,4 @@ void assert_failed(uint8_t *file, uint32_t line)
  
  
 ## Result :
-The IoT development board was successfully interfaced, and the USART was configured to transmit strings. The transmitted data was verified using a serial monitor, confirming proper communication.
+The ADC was successfully interfaced with the IoT development board, and the analog input value was read using the ADC peripheral. The ADC values were successfully transmitted through USART and displayed on the serial monitor, confirming proper ADC and UART communication.
